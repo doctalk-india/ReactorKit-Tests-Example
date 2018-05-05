@@ -19,6 +19,8 @@
 		21D7E2B8209E362F0065B9CC /* AuthRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */; };
 		21D7E2BA209E364C0065B9CC /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B9209E364C0065B9CC /* AuthRepository.swift */; };
 		21D7E2BE209E373E0065B9CC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2BD209E373E0065B9CC /* SignInViewController.swift */; };
+		21D7E2C0209E38750065B9CC /* AuthRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2BF209E38750065B9CC /* AuthRepositoryStub.swift */; };
+		273026926617F77CCD87FDE7 /* Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C23F0823DCE84786BDC50C /* Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework */; };
 		88AFACEFE033DC664A14C271 /* Pods_ReactorKitTestsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D07317E094421246778234B /* Pods_ReactorKitTestsExample.framework */; };
 		C171A9CF6D81D3706564943A /* Pods_ReactorKitTestsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB31FD65972613D6A2E18F05 /* Pods_ReactorKitTestsExampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -51,8 +53,12 @@
 		21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryType.swift; sourceTree = "<group>"; };
 		21D7E2B9209E364C0065B9CC /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
 		21D7E2BD209E373E0065B9CC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		21D7E2BF209E38750065B9CC /* AuthRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryStub.swift; sourceTree = "<group>"; };
 		5A3AEAC8FFBD3BF3C920F357 /* Pods-ReactorKitTestsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExample/Pods-ReactorKitTestsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5DBFC4727E3A0D202E2ADD5D /* Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB31FD65972613D6A2E18F05 /* Pods_ReactorKitTestsExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKitTestsExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58ABB1615E8F84A1985BC07 /* Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5C23F0823DCE84786BDC50C /* Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C171A9CF6D81D3706564943A /* Pods_ReactorKitTestsExampleTests.framework in Frameworks */,
+				273026926617F77CCD87FDE7 /* Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +194,7 @@
 		21D7E2B4209E36080065B9CC /* AuthRepositoryStub */ = {
 			isa = PBXGroup;
 			children = (
+				21D7E2BF209E38750065B9CC /* AuthRepositoryStub.swift */,
 			);
 			path = AuthRepositoryStub;
 			sourceTree = "<group>";
@@ -213,6 +221,7 @@
 			children = (
 				0D07317E094421246778234B /* Pods_ReactorKitTestsExample.framework */,
 				CB31FD65972613D6A2E18F05 /* Pods_ReactorKitTestsExampleTests.framework */,
+				F5C23F0823DCE84786BDC50C /* Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,6 +233,8 @@
 				0B2C0DCFF39C2EA69F79C90A /* Pods-ReactorKitTestsExample.release.xcconfig */,
 				0FAE1B96DF1E7AF5032D3CF7 /* Pods-ReactorKitTestsExampleTests.debug.xcconfig */,
 				1FE633440FB547DAEBC617C1 /* Pods-ReactorKitTestsExampleTests.release.xcconfig */,
+				E58ABB1615E8F84A1985BC07 /* Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.debug.xcconfig */,
+				5DBFC4727E3A0D202E2ADD5D /* Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -337,7 +348,8 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
@@ -346,6 +358,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
@@ -354,7 +367,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		58F9BECEE34CAC86376751CA /* [CP] Check Pods Manifest.lock */ = {
@@ -386,7 +399,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactorKitTestsExampleTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -436,6 +449,7 @@
 				21D7E2B8209E362F0065B9CC /* AuthRepositoryType.swift in Sources */,
 				21D7E2B2209E35400065B9CC /* SignInReactorTests.swift in Sources */,
 				21D7E2AB209E33BF0065B9CC /* SignInReactor.swift in Sources */,
+				21D7E2C0209E38750065B9CC /* AuthRepositoryStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +624,7 @@
 		};
 		21D7E2A3209E2E850065B9CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FAE1B96DF1E7AF5032D3CF7 /* Pods-ReactorKitTestsExampleTests.debug.xcconfig */;
+			baseConfigurationReference = E58ABB1615E8F84A1985BC07 /* Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -628,7 +642,7 @@
 		};
 		21D7E2A4209E2E850065B9CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FE633440FB547DAEBC617C1 /* Pods-ReactorKitTestsExampleTests.release.xcconfig */;
+			baseConfigurationReference = 5DBFC4727E3A0D202E2ADD5D /* Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
