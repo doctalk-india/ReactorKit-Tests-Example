@@ -1,0 +1,6 @@
+framework module Stubber {
+  umbrella header "Stubber-umbrella.h"
+
+  export *
+  module * { export * }
+}

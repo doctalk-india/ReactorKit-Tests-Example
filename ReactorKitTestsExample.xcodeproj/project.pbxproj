@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		21D7E286209E2E850065B9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E285209E2E850065B9CC /* AppDelegate.swift */; };
-		21D7E288209E2E850065B9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E287209E2E850065B9CC /* ViewController.swift */; };
 		21D7E28B209E2E850065B9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D7E289209E2E850065B9CC /* Main.storyboard */; };
 		21D7E28D209E2E850065B9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D7E28C209E2E850065B9CC /* Assets.xcassets */; };
 		21D7E290209E2E850065B9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D7E28E209E2E850065B9CC /* LaunchScreen.storyboard */; };
-		21D7E29B209E2E850065B9CC /* ReactorKitTestsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E29A209E2E850065B9CC /* ReactorKitTestsExampleTests.swift */; };
+		21D7E2AA209E33BF0065B9CC /* SignInReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2A9209E33BF0065B9CC /* SignInReactor.swift */; };
+		21D7E2AB209E33BF0065B9CC /* SignInReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2A9209E33BF0065B9CC /* SignInReactor.swift */; };
+		21D7E2B1209E35400065B9CC /* SignInReactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B0209E35400065B9CC /* SignInReactorTests.swift */; };
+		21D7E2B2209E35400065B9CC /* SignInReactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B0209E35400065B9CC /* SignInReactorTests.swift */; };
+		21D7E2B7209E362F0065B9CC /* AuthRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */; };
+		21D7E2B8209E362F0065B9CC /* AuthRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */; };
+		21D7E2BA209E364C0065B9CC /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B9209E364C0065B9CC /* AuthRepository.swift */; };
+		21D7E2BE209E373E0065B9CC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2BD209E373E0065B9CC /* SignInViewController.swift */; };
+		88AFACEFE033DC664A14C271 /* Pods_ReactorKitTestsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D07317E094421246778234B /* Pods_ReactorKitTestsExample.framework */; };
+		C171A9CF6D81D3706564943A /* Pods_ReactorKitTestsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB31FD65972613D6A2E18F05 /* Pods_ReactorKitTestsExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B2C0DCFF39C2EA69F79C90A /* Pods-ReactorKitTestsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExample/Pods-ReactorKitTestsExample.release.xcconfig"; sourceTree = "<group>"; };
+		0D07317E094421246778234B /* Pods_ReactorKitTestsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKitTestsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAE1B96DF1E7AF5032D3CF7 /* Pods-ReactorKitTestsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FE633440FB547DAEBC617C1 /* Pods-ReactorKitTestsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		21D7E282209E2E850065B9CC /* ReactorKitTestsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorKitTestsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D7E285209E2E850065B9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21D7E287209E2E850065B9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21D7E28A209E2E850065B9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21D7E28C209E2E850065B9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21D7E28F209E2E850065B9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21D7E291209E2E850065B9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21D7E296209E2E850065B9CC /* ReactorKitTestsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactorKitTestsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21D7E29A209E2E850065B9CC /* ReactorKitTestsExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorKitTestsExampleTests.swift; sourceTree = "<group>"; };
 		21D7E29C209E2E850065B9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D7E2A9209E33BF0065B9CC /* SignInReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInReactor.swift; sourceTree = "<group>"; };
+		21D7E2B0209E35400065B9CC /* SignInReactorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInReactorTests.swift; sourceTree = "<group>"; };
+		21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryType.swift; sourceTree = "<group>"; };
+		21D7E2B9209E364C0065B9CC /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		21D7E2BD209E373E0065B9CC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5A3AEAC8FFBD3BF3C920F357 /* Pods-ReactorKitTestsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExample/Pods-ReactorKitTestsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		CB31FD65972613D6A2E18F05 /* Pods_ReactorKitTestsExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKitTestsExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88AFACEFE033DC664A14C271 /* Pods_ReactorKitTestsExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C171A9CF6D81D3706564943A /* Pods_ReactorKitTestsExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +81,8 @@
 				21D7E284209E2E850065B9CC /* ReactorKitTestsExample */,
 				21D7E299209E2E850065B9CC /* ReactorKitTestsExampleTests */,
 				21D7E283209E2E850065B9CC /* Products */,
+				BB2E6A407E7F311D4B767A65 /* Pods */,
+				B80753A84962660719074EC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +98,9 @@
 		21D7E284209E2E850065B9CC /* ReactorKitTestsExample */ = {
 			isa = PBXGroup;
 			children = (
+				21D7E2AD209E34B80065B9CC /* Repositories */,
+				21D7E2A5209E334A0065B9CC /* Screens */,
 				21D7E285209E2E850065B9CC /* AppDelegate.swift */,
-				21D7E287209E2E850065B9CC /* ViewController.swift */,
 				21D7E289209E2E850065B9CC /* Main.storyboard */,
 				21D7E28C209E2E850065B9CC /* Assets.xcassets */,
 				21D7E28E209E2E850065B9CC /* LaunchScreen.storyboard */,
@@ -90,10 +112,120 @@
 		21D7E299209E2E850065B9CC /* ReactorKitTestsExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				21D7E29A209E2E850065B9CC /* ReactorKitTestsExampleTests.swift */,
+				21D7E2AE209E34C20065B9CC /* ReactorTests */,
+				21D7E2AC209E34B00065B9CC /* Stubs */,
 				21D7E29C209E2E850065B9CC /* Info.plist */,
 			);
 			path = ReactorKitTestsExampleTests;
+			sourceTree = "<group>";
+		};
+		21D7E2A5209E334A0065B9CC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2A6209E33510065B9CC /* SignIn */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		21D7E2A6209E33510065B9CC /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2BC209E372E0065B9CC /* Views */,
+				21D7E2A8209E33750065B9CC /* Reactor */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		21D7E2A8209E33750065B9CC /* Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2A9209E33BF0065B9CC /* SignInReactor.swift */,
+			);
+			path = Reactor;
+			sourceTree = "<group>";
+		};
+		21D7E2AC209E34B00065B9CC /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2B3209E35500065B9CC /* StubbedRepositories */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		21D7E2AD209E34B80065B9CC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2B5209E361D0065B9CC /* Auth */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		21D7E2AE209E34C20065B9CC /* ReactorTests */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2AF209E35300065B9CC /* SignIn */,
+			);
+			path = ReactorTests;
+			sourceTree = "<group>";
+		};
+		21D7E2AF209E35300065B9CC /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2B0209E35400065B9CC /* SignInReactorTests.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		21D7E2B3209E35500065B9CC /* StubbedRepositories */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2B4209E36080065B9CC /* AuthRepositoryStub */,
+			);
+			path = StubbedRepositories;
+			sourceTree = "<group>";
+		};
+		21D7E2B4209E36080065B9CC /* AuthRepositoryStub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AuthRepositoryStub;
+			sourceTree = "<group>";
+		};
+		21D7E2B5209E361D0065B9CC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */,
+				21D7E2B9209E364C0065B9CC /* AuthRepository.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		21D7E2BC209E372E0065B9CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21D7E2BD209E373E0065B9CC /* SignInViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B80753A84962660719074EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D07317E094421246778234B /* Pods_ReactorKitTestsExample.framework */,
+				CB31FD65972613D6A2E18F05 /* Pods_ReactorKitTestsExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB2E6A407E7F311D4B767A65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A3AEAC8FFBD3BF3C920F357 /* Pods-ReactorKitTestsExample.debug.xcconfig */,
+				0B2C0DCFF39C2EA69F79C90A /* Pods-ReactorKitTestsExample.release.xcconfig */,
+				0FAE1B96DF1E7AF5032D3CF7 /* Pods-ReactorKitTestsExampleTests.debug.xcconfig */,
+				1FE633440FB547DAEBC617C1 /* Pods-ReactorKitTestsExampleTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21D7E29F209E2E850065B9CC /* Build configuration list for PBXNativeTarget "ReactorKitTestsExample" */;
 			buildPhases = (
+				58F9BECEE34CAC86376751CA /* [CP] Check Pods Manifest.lock */,
 				21D7E27E209E2E850065B9CC /* Sources */,
 				21D7E27F209E2E850065B9CC /* Frameworks */,
 				21D7E280209E2E850065B9CC /* Resources */,
+				F03EC59DCA1512F36D27D5C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21D7E2A2209E2E850065B9CC /* Build configuration list for PBXNativeTarget "ReactorKitTestsExampleTests" */;
 			buildPhases = (
+				E731BE1AC5D0B0F20DC32663 /* [CP] Check Pods Manifest.lock */,
 				21D7E292209E2E850065B9CC /* Sources */,
 				21D7E293209E2E850065B9CC /* Frameworks */,
 				21D7E294209E2E850065B9CC /* Resources */,
+				44C81A3A1FC588A826707BFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,7 +278,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = DocTalk;
+				ORGANIZATIONNAME = "Sourav Chandra";
 				TargetAttributes = {
 					21D7E281209E2E850065B9CC = {
 						CreatedOnToolsVersion = 9.2;
@@ -194,12 +330,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44C81A3A1FC588A826707BFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/Stubber/Stubber.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stubber.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F9BECEE34CAC86376751CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactorKitTestsExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E731BE1AC5D0B0F20DC32663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactorKitTestsExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F03EC59DCA1512F36D27D5C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactorKitTestsExample/Pods-ReactorKitTestsExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactorKitTestsExample/Pods-ReactorKitTestsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21D7E27E209E2E850065B9CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D7E288209E2E850065B9CC /* ViewController.swift in Sources */,
+				21D7E2AA209E33BF0065B9CC /* SignInReactor.swift in Sources */,
+				21D7E2B1209E35400065B9CC /* SignInReactorTests.swift in Sources */,
+				21D7E2BE209E373E0065B9CC /* SignInViewController.swift in Sources */,
+				21D7E2BA209E364C0065B9CC /* AuthRepository.swift in Sources */,
+				21D7E2B7209E362F0065B9CC /* AuthRepositoryType.swift in Sources */,
 				21D7E286209E2E850065B9CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +433,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D7E29B209E2E850065B9CC /* ReactorKitTestsExampleTests.swift in Sources */,
+				21D7E2B8209E362F0065B9CC /* AuthRepositoryType.swift in Sources */,
+				21D7E2B2209E35400065B9CC /* SignInReactorTests.swift in Sources */,
+				21D7E2AB209E33BF0065B9CC /* SignInReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +578,7 @@
 		};
 		21D7E2A0209E2E850065B9CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3AEAC8FFBD3BF3C920F357 /* Pods-ReactorKitTestsExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +594,7 @@
 		};
 		21D7E2A1209E2E850065B9CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2C0DCFF39C2EA69F79C90A /* Pods-ReactorKitTestsExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,8 +610,9 @@
 		};
 		21D7E2A3209E2E850065B9CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAE1B96DF1E7AF5032D3CF7 /* Pods-ReactorKitTestsExampleTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EC3AZW8X4Z;
@@ -398,8 +628,9 @@
 		};
 		21D7E2A4209E2E850065B9CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE633440FB547DAEBC617C1 /* Pods-ReactorKitTestsExampleTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EC3AZW8X4Z;

@@ -3,7 +3,7 @@
 //  ReactorKitTestsExample
 //
 //  Created by Sourav Chandra on 05/05/18.
-//  Copyright © 2018 DocTalk. All rights reserved.
+//  Copyright © 2018 Sourav Chandra. All rights reserved.
 //
 
 import UIKit
