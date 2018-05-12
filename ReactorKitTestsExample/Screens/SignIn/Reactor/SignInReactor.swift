@@ -16,6 +16,7 @@ final class SignInReactor: Reactor {
         case invalidEmail = "Please enter a valid email."
         case invalidPassword = "Your password should be atleast 8 characters long"
         case incorrectPassword = "The password you entered is incorrect. Please enter the correct password."
+        case signInFailed = "Sign in failed. Please try again."
         case other = "Something went wrong"
     }
     
@@ -65,10 +66,14 @@ final class SignInReactor: Reactor {
     }
     
     private func mutateSignIn(email: String?, password: String?) -> Observable<Mutation> {
-        guard let `email` = email, email.isEmail else { return .just(.setError(.invalidEmail))  }
-        guard let `password` = password, password.count >= 8 else { return .just(.setError(.invalidPassword))  }
-        return authRepository.signIn(email: email, password: password).map { user in
-            return .setUser(user)
+        guard let `email` = email?.trimWhitespacesAndNewLines(), email.isEmail else { return .just(.setError(.invalidEmail))  }
+        guard let `password` = password?.trimWhitespacesAndNewLines(), password.count >= 8 else { return .just(.setError(.invalidPassword))  }
+        return authRepository.signIn(email: email, password: password).map { result in
+            switch result {
+            case let .success(user): return .setUser(user)
+            case .failure: return .setError(.signInFailed)
+            }
+            
         }
         .startWith(.setLoading)
     }

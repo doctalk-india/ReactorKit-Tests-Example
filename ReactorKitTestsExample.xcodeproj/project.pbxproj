@@ -15,6 +15,8 @@
 		21790CEE20A6BB5100FD2CD1 /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CEC20A6BB5100FD2CD1 /* String+extensions.swift */; };
 		21790CF020A6C4F500FD2CD1 /* Observable+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CEF20A6C4F500FD2CD1 /* Observable+extensions.swift */; };
 		21790CF120A6C4F500FD2CD1 /* Observable+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CEF20A6C4F500FD2CD1 /* Observable+extensions.swift */; };
+		21790CF720A6EFA800FD2CD1 /* SignInReactorTests+validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CF520A6EFA800FD2CD1 /* SignInReactorTests+validations.swift */; };
+		21790CFA20A6EFBF00FD2CD1 /* SignInReactorTests+networkCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CF820A6EFBF00FD2CD1 /* SignInReactorTests+networkCalls.swift */; };
 		21D7E286209E2E850065B9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E285209E2E850065B9CC /* AppDelegate.swift */; };
 		21D7E28B209E2E850065B9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D7E289209E2E850065B9CC /* Main.storyboard */; };
 		21D7E28D209E2E850065B9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D7E28C209E2E850065B9CC /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		21790CE720A6B8AD00FD2CD1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		21790CEC20A6BB5100FD2CD1 /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
 		21790CEF20A6C4F500FD2CD1 /* Observable+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+extensions.swift"; sourceTree = "<group>"; };
+		21790CF520A6EFA800FD2CD1 /* SignInReactorTests+validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInReactorTests+validations.swift"; sourceTree = "<group>"; };
+		21790CF820A6EFBF00FD2CD1 /* SignInReactorTests+networkCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInReactorTests+networkCalls.swift"; sourceTree = "<group>"; };
 		21D7E282209E2E850065B9CC /* ReactorKitTestsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorKitTestsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D7E285209E2E850065B9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21D7E28A209E2E850065B9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -205,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				21D7E2B0209E35400065B9CC /* SignInReactorTests.swift */,
+				21790CF520A6EFA800FD2CD1 /* SignInReactorTests+validations.swift */,
+				21790CF820A6EFBF00FD2CD1 /* SignInReactorTests+networkCalls.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -482,8 +488,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21D7E2B8209E362F0065B9CC /* AuthRepositoryType.swift in Sources */,
+				21790CFA20A6EFBF00FD2CD1 /* SignInReactorTests+networkCalls.swift in Sources */,
 				21790CF120A6C4F500FD2CD1 /* Observable+extensions.swift in Sources */,
 				21D7E2B2209E35400065B9CC /* SignInReactorTests.swift in Sources */,
+				21790CF720A6EFA800FD2CD1 /* SignInReactorTests+validations.swift in Sources */,
 				21D7E2AB209E33BF0065B9CC /* SignInReactor.swift in Sources */,
 				21790CE920A6B96D00FD2CD1 /* User.swift in Sources */,
 				21790CEE20A6BB5100FD2CD1 /* String+extensions.swift in Sources */,

@@ -9,6 +9,11 @@
 import Foundation
 import RxSwift
 
+enum SignInResult {
+    case success(User)
+    case failure(error: String)
+}
+
 protocol AuthRepositoryType {
-    func signIn(email: String, password: String) -> Observable<User>
+    func signIn(email: String, password: String) -> Observable<SignInResult>
 }
