@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21790CE420A6B77E00FD2CD1 /* SignInViewController+viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CE320A6B77E00FD2CD1 /* SignInViewController+viewModel.swift */; };
+		21790CE620A6B79800FD2CD1 /* SignInViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CE520A6B79800FD2CD1 /* SignInViewController+UI.swift */; };
+		21790CE820A6B8AD00FD2CD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CE720A6B8AD00FD2CD1 /* User.swift */; };
+		21790CE920A6B96D00FD2CD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CE720A6B8AD00FD2CD1 /* User.swift */; };
+		21790CED20A6BB5100FD2CD1 /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CEC20A6BB5100FD2CD1 /* String+extensions.swift */; };
+		21790CEE20A6BB5100FD2CD1 /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21790CEC20A6BB5100FD2CD1 /* String+extensions.swift */; };
 		21D7E286209E2E850065B9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E285209E2E850065B9CC /* AppDelegate.swift */; };
 		21D7E28B209E2E850065B9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D7E289209E2E850065B9CC /* Main.storyboard */; };
 		21D7E28D209E2E850065B9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D7E28C209E2E850065B9CC /* Assets.xcassets */; };
 		21D7E290209E2E850065B9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D7E28E209E2E850065B9CC /* LaunchScreen.storyboard */; };
 		21D7E2AA209E33BF0065B9CC /* SignInReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2A9209E33BF0065B9CC /* SignInReactor.swift */; };
 		21D7E2AB209E33BF0065B9CC /* SignInReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2A9209E33BF0065B9CC /* SignInReactor.swift */; };
-		21D7E2B1209E35400065B9CC /* SignInReactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B0209E35400065B9CC /* SignInReactorTests.swift */; };
 		21D7E2B2209E35400065B9CC /* SignInReactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B0209E35400065B9CC /* SignInReactorTests.swift */; };
 		21D7E2B7209E362F0065B9CC /* AuthRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */; };
 		21D7E2B8209E362F0065B9CC /* AuthRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */; };
@@ -40,6 +45,10 @@
 		0D07317E094421246778234B /* Pods_ReactorKitTestsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKitTestsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAE1B96DF1E7AF5032D3CF7 /* Pods-ReactorKitTestsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FE633440FB547DAEBC617C1 /* Pods-ReactorKitTestsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		21790CE320A6B77E00FD2CD1 /* SignInViewController+viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInViewController+viewModel.swift"; sourceTree = "<group>"; };
+		21790CE520A6B79800FD2CD1 /* SignInViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInViewController+UI.swift"; sourceTree = "<group>"; };
+		21790CE720A6B8AD00FD2CD1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		21790CEC20A6BB5100FD2CD1 /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
 		21D7E282209E2E850065B9CC /* ReactorKitTestsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorKitTestsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D7E285209E2E850065B9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21D7E28A209E2E850065B9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +91,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21790CEA20A6BB3A00FD2CD1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				21790CEB20A6BB3F00FD2CD1 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		21790CEB20A6BB3F00FD2CD1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				21790CEC20A6BB5100FD2CD1 /* String+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		21D7E279209E2E850065B9CC = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +130,7 @@
 		21D7E284209E2E850065B9CC /* ReactorKitTestsExample */ = {
 			isa = PBXGroup;
 			children = (
+				21790CEA20A6BB3A00FD2CD1 /* Helpers */,
 				21D7E2AD209E34B80065B9CC /* Repositories */,
 				21D7E2A5209E334A0065B9CC /* Screens */,
 				21D7E285209E2E850065B9CC /* AppDelegate.swift */,
@@ -204,6 +230,7 @@
 			children = (
 				21D7E2B6209E362F0065B9CC /* AuthRepositoryType.swift */,
 				21D7E2B9209E364C0065B9CC /* AuthRepository.swift */,
+				21790CE720A6B8AD00FD2CD1 /* User.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -212,6 +239,8 @@
 			isa = PBXGroup;
 			children = (
 				21D7E2BD209E373E0065B9CC /* SignInViewController.swift */,
+				21790CE320A6B77E00FD2CD1 /* SignInViewController+viewModel.swift */,
+				21790CE520A6B79800FD2CD1 /* SignInViewController+UI.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,7 +317,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Sourav Chandra";
 				TargetAttributes = {
 					21D7E281209E2E850065B9CC = {
@@ -434,10 +463,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				21D7E2AA209E33BF0065B9CC /* SignInReactor.swift in Sources */,
-				21D7E2B1209E35400065B9CC /* SignInReactorTests.swift in Sources */,
+				21790CE620A6B79800FD2CD1 /* SignInViewController+UI.swift in Sources */,
 				21D7E2BE209E373E0065B9CC /* SignInViewController.swift in Sources */,
 				21D7E2BA209E364C0065B9CC /* AuthRepository.swift in Sources */,
+				21790CE820A6B8AD00FD2CD1 /* User.swift in Sources */,
+				21790CE420A6B77E00FD2CD1 /* SignInViewController+viewModel.swift in Sources */,
 				21D7E2B7209E362F0065B9CC /* AuthRepositoryType.swift in Sources */,
+				21790CED20A6BB5100FD2CD1 /* String+extensions.swift in Sources */,
 				21D7E286209E2E850065B9CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +481,8 @@
 				21D7E2B8209E362F0065B9CC /* AuthRepositoryType.swift in Sources */,
 				21D7E2B2209E35400065B9CC /* SignInReactorTests.swift in Sources */,
 				21D7E2AB209E33BF0065B9CC /* SignInReactor.swift in Sources */,
+				21790CE920A6B96D00FD2CD1 /* User.swift in Sources */,
+				21790CEE20A6BB5100FD2CD1 /* String+extensions.swift in Sources */,
 				21D7E2C0209E38750065B9CC /* AuthRepositoryStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +531,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -504,6 +539,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -554,6 +590,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -561,6 +598,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

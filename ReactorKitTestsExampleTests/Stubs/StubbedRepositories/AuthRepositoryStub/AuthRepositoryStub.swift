@@ -11,7 +11,7 @@ import RxSwift
 import Stubber
 
 struct AuthRepositoryStub: AuthRepositoryType {
-    func signIn(email: String, password: String) -> Single<[String : Any]> {
-        return Stubber.invoke(signIn,)
+    func signIn(email: String, password: String) -> Observable<User> {
+        return Stubber.invoke(signIn, args: (email, password), default: .never())
     }
 }

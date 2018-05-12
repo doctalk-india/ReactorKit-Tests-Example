@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import Quick
+
+final class SignInReactorTests: QuickSpec {
+    
+}

@@ -10,5 +10,5 @@ import Foundation
 import RxSwift
 
 protocol AuthRepositoryType {
-    func signIn(email: String, password: String) -> Single<[String: Any]>
+    func signIn(email: String, password: String) -> Observable<User>
 }

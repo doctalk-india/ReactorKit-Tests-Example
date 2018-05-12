@@ -12,7 +12,7 @@ import RxSwift
 struct AuthRepository: AuthRepositoryType {
     
     /// I'm just simulating a network request here.
-    func signIn(email: String, password: String) -> Single<[String: Any]> {
-        return Single.just([:]).delay(5, scheduler: MainScheduler.instance)
+    func signIn(email: String, password: String) -> Observable<User> {
+        return Observable.just(User(name: "Apple", email: email)).delay(5, scheduler: MainScheduler.instance)
     }
 }
