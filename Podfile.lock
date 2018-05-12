@@ -5,6 +5,8 @@ PODS:
     - RxSwift (>= 4.0.0)
   - RxBlocking (4.1.2):
     - RxSwift (~> 4.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
   - Stubber (1.2.0)
 
@@ -13,15 +15,17 @@ DEPENDENCIES:
   - Quick
   - ReactorKit
   - RxBlocking
+  - RxCocoa
   - RxSwift
   - Stubber
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Nimble
     - Quick
     - ReactorKit
     - RxBlocking
+    - RxCocoa
     - RxSwift
     - Stubber
 
@@ -30,9 +34,10 @@ SPEC CHECKSUMS:
   Quick: 03278013f71aa05fe9ecabc94fbcc6835f1ee76f
   ReactorKit: 26470a9eff5094fae909a30af0be7cd0cf8a182d
   RxBlocking: f6054985901412fc8c02daa84e92d4ba68c61389
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   Stubber: 68c7f9fad366d10dd256bd88b5247580effef62d
 
-PODFILE CHECKSUM: e4c158590fcdccf1955000e8fb40f4091f6f6074
+PODFILE CHECKSUM: 13794345077812cd7a6b272815b683d1e9e49264
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2

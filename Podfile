@@ -5,6 +5,7 @@ inhibit_all_warnings!
 
 def development_pods
     pod 'RxSwift'
+    pod 'RxCocoa'
     pod 'ReactorKit'
 end
 

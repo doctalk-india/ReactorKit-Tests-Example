@@ -10,7 +10,7 @@ import Foundation
 import ReactorKit
 import RxSwift
 
-final class SignInViewModel: Reactor {
+final class SignInReactor: Reactor {
     
     enum ErrorMessage: String {
         case invalidEmail = "Please enter a valid email."
@@ -32,12 +32,14 @@ final class SignInViewModel: Reactor {
 
     enum Action {
         case signIn(email: String?, password: String?)
+        case clearErrors
     }
     
     enum Mutation {
         case setUser(User)
         case setLoading
         case setError(ErrorMessage)
+        case setClearingErrors
     }
     
     struct State {
@@ -58,12 +60,13 @@ final class SignInViewModel: Reactor {
     func mutate(action: Action) -> Observable<Mutation> {
         switch action {
         case let .signIn(email, password): return mutateSignIn(email: email, password: password)
+        case .clearErrors: return .just(.setClearingErrors)
         }
     }
     
     private func mutateSignIn(email: String?, password: String?) -> Observable<Mutation> {
         guard let `email` = email, email.isEmail else { return .just(.setError(.invalidEmail))  }
-        guard let `password` = password, password.count < 8 else { return .just(.setError(.invalidPassword))  }
+        guard let `password` = password, password.count >= 8 else { return .just(.setError(.invalidPassword))  }
         return authRepository.signIn(email: email, password: password).map { user in
             return .setUser(user)
         }
@@ -89,7 +92,7 @@ final class SignInViewModel: Reactor {
             state.isLoading = false
         case .setLoading:
             state.isLoading = true
-            
+        default: break
         }
         return state
     }

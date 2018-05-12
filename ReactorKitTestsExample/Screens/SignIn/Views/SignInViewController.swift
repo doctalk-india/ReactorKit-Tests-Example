@@ -11,30 +11,32 @@ import UIKit
 import ReactorKit
 import RxSwift
 
-final class SignInViewController: UIViewController, View {
+final class SignInViewController: UIViewController, StoryboardView {
+    
+    // MARK: UI Elements
+
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var signInButton: UIButton!
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var errorLabel: UILabel!
+    @IBOutlet weak var loadingView: UIActivityIndicatorView!
+    
+    // MARK: Properties
     
     var disposeBag: DisposeBag = DisposeBag()
 
-    // MARK: Init methods
-    
-    init(reactor: SignInViewModel) {
-        defer { self.reactor = reactor }
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
 
     // MARK: Lifecycle methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
     }
 
     // MARK: Instance methods
     
-    func bind(reactor: SignInViewModel) {
+    func bind(reactor: SignInReactor) {
         bindState(reactor: reactor)
         bindActions(reactor: reactor)
     }

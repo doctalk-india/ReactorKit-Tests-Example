@@ -11,7 +11,7 @@ import Foundation
 extension SignInViewController {
     
     internal func setupUI() {
-        
+        navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
 }
