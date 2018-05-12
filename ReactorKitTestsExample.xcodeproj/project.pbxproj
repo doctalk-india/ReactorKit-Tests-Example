@@ -29,7 +29,6 @@
 		21D7E2C0209E38750065B9CC /* AuthRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7E2BF209E38750065B9CC /* AuthRepositoryStub.swift */; };
 		273026926617F77CCD87FDE7 /* Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C23F0823DCE84786BDC50C /* Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework */; };
 		88AFACEFE033DC664A14C271 /* Pods_ReactorKitTestsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D07317E094421246778234B /* Pods_ReactorKitTestsExample.framework */; };
-		C171A9CF6D81D3706564943A /* Pods_ReactorKitTestsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB31FD65972613D6A2E18F05 /* Pods_ReactorKitTestsExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +44,6 @@
 /* Begin PBXFileReference section */
 		0B2C0DCFF39C2EA69F79C90A /* Pods-ReactorKitTestsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExample/Pods-ReactorKitTestsExample.release.xcconfig"; sourceTree = "<group>"; };
 		0D07317E094421246778234B /* Pods_ReactorKitTestsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKitTestsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FAE1B96DF1E7AF5032D3CF7 /* Pods-ReactorKitTestsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1FE633440FB547DAEBC617C1 /* Pods-ReactorKitTestsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTestsExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactorKitTestsExampleTests/Pods-ReactorKitTestsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		21790CE320A6B77E00FD2CD1 /* SignInViewController+viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInViewController+viewModel.swift"; sourceTree = "<group>"; };
 		21790CE520A6B79800FD2CD1 /* SignInViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInViewController+UI.swift"; sourceTree = "<group>"; };
 		21790CE720A6B8AD00FD2CD1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -86,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C171A9CF6D81D3706564943A /* Pods_ReactorKitTestsExampleTests.framework in Frameworks */,
 				273026926617F77CCD87FDE7 /* Pods_ReactorKitTestsExample_ReactorKitTestsExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +260,6 @@
 			children = (
 				5A3AEAC8FFBD3BF3C920F357 /* Pods-ReactorKitTestsExample.debug.xcconfig */,
 				0B2C0DCFF39C2EA69F79C90A /* Pods-ReactorKitTestsExample.release.xcconfig */,
-				0FAE1B96DF1E7AF5032D3CF7 /* Pods-ReactorKitTestsExampleTests.debug.xcconfig */,
-				1FE633440FB547DAEBC617C1 /* Pods-ReactorKitTestsExampleTests.release.xcconfig */,
 				E58ABB1615E8F84A1985BC07 /* Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.debug.xcconfig */,
 				5DBFC4727E3A0D202E2ADD5D /* Pods-ReactorKitTestsExample-ReactorKitTestsExampleTests.release.xcconfig */,
 			);
